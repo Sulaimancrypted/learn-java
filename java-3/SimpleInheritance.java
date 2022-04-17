@@ -25,16 +25,22 @@ class B extends A{
     }
 }
 
+
+
 class SimpleInheritance {
     public static void main(String[] args) {
         A objA = new A();
         B objB = new B();
+        //C objC = new C();
     
         objA.setDataA(5,4);
         objA.getDataA();
 
         objB.setData(5,4,6);
         objB.display();
+
+        // objC.setData(5, 4, 9);
+        // objC.display();
 
         
     }    
