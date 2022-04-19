@@ -1,4 +1,4 @@
-//package Polymorphism;
+package Polymorphism;
 
 /*Function overloading for different datatypes*/
 class FunOverload{
