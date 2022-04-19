@@ -6,7 +6,7 @@
  * Here ‘A’ is a super class for class ‘B’, while ‘B’ is super class
  * for class ‘C’
  */
-class A {
+class A1 {
     protected int a, b;
 
     public void setDataA(int i, int j) {
@@ -19,7 +19,7 @@ class A {
     }
 }
 
-class B extends A {
+class B1 extends A1 {
     protected int c;
 
     public void setDataB(int i,int j, int k){
@@ -31,7 +31,7 @@ class B extends A {
         System.out.println("\nObject for class B:\nFrom class A: a= "+a+"\nb= "+b+"\nFrom class B: c= "+c);
     }
 }
-class C extends B{
+class C1 extends B1{
     protected String n;
     public void setDataC(int i,int j, int k,String l){
         super.setDataB(i,j,k);
@@ -44,9 +44,9 @@ class C extends B{
 }
 class MultiLevelInheritance{
     public static void main(String arg[]){
-    A obA=new A();
-    B obB=new B();
-    C obC=new C();
+    A1 obA=new A1();
+    B1 obB=new B1();
+    C1 obC=new C1();
     obA.setDataA(4,5);
     obA.displayA();
     obB.setDataB(40,50,60);

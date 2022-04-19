@@ -2,7 +2,7 @@
 
 //JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE
 
-class A
+class A2
 {
     protected int a,b;
     public void setDataA(int i, int j){
@@ -12,7 +12,7 @@ class A
         System.out.println("\nObject for class A: \nFrom class A: a="+a+"\nb= "+b);
     }
 }
-class B{
+class B2{
     protected int c;
     public void setDataB(int k){
         c=k;
@@ -37,8 +37,8 @@ class B{
 
 class MultipleInheritance{
     public static void main(String arg[]){
-        A obA=new A();
-        B obB=new B();
+        A2 obA=new A2();
+        B2 obB=new B2();
         //C obC=new C();
         obA.setDataA(4,5);
         obA.displayA();
