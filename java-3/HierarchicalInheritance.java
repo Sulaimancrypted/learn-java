@@ -17,7 +17,7 @@ class B extends A{
         c=k;
     }
     public void displayB(){
-        System.out.println("\nObject for class B:\nFrom class A: a= "+a+"\nb= "+b+"\nFrom class B: c= "+c);
+        System.out.println("\nObject for class B:\nFrom class A: a= "+a+"\nb= "+b+"\nFrom class B: c = "+c);
     }
 }
 
