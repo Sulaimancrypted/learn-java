@@ -55,6 +55,7 @@ class Triangle implements Shape {
         base = b.nextInt();
         System.out.print("Enter Height of Triangle : ");
         height = b.nextInt();
+        b.close();
     }
 
     public void area() {
