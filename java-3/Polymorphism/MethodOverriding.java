@@ -1,5 +1,5 @@
 /*Method Overriding demonstration through inheritance*/
-class SuperClass {
+class SuperClass1 {
     public void method1() {
         System.out.println("Method1 from Super class");
     }
@@ -9,7 +9,7 @@ class SuperClass {
     }
 }
 
-class SubClass extends SuperClass {
+class SubClass extends SuperClass1 {
     public void method2()
     {
         System.out.println("Method2 overrides method2 from Super Class");
@@ -17,8 +17,8 @@ class SubClass extends SuperClass {
 }
 
 class MethodOverriding {
-    public static void main(String arg[]){
-        SuperClass objSuper=new SuperClass();
+    public static void main(String[] arg){
+        SuperClass1 objSuper=new SuperClass1();
         SubClass objSub=new SubClass();
         System.out.println("For object on Super Class : ");
         objSuper.method1();
