@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "java-3",
-        "java-3\\Polymorphism"
+        "java-3\\Polymorphism",
+        "java-4"
     ]
 }
