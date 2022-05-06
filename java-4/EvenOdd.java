@@ -1,11 +1,11 @@
 
 class Even extends Thread{
     int limit = 50;
-    int enumber = 2;
+    int evenNumber = 2;
     public void run(){
-        while (enumber <= limit) {
-            System.out.println(enumber);
-            enumber = enumber + 2;
+        while (evenNumber <= limit) {
+            System.out.println(evenNumber);
+            evenNumber = evenNumber + 2;
         }
     }
 }
@@ -13,11 +13,11 @@ class Even extends Thread{
 
 class Odd extends Thread{
     int limit = 50;
-    int onumber = 1;
+    int oddNumber = 1;
     public void run(){
-        while (onumber <= limit) {
-            System.out.println(onumber);
-            onumber = onumber + 2;
+        while (oddNumber <= limit) {
+            System.out.println(oddNumber);
+            oddNumber = oddNumber + 2;
         }
     }
 }
